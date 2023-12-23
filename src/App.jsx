@@ -1,3 +1,14 @@
+import {
+  Hero,
+  PopularProducts,
+  SuperQuality,
+  Services,
+  SpecialOffers,
+  CustomerReviews,
+  Subscribe,
+  Footer,
+} from "./sections/index";
+
 const App = () => {
   return (
     <main className="realtive">
@@ -7,13 +18,13 @@ const App = () => {
       {/* Popular Products Section */}
       <section className="padding">Popular Products</section>
       {/* Super quality Section */}
-      <section className="padding">Super Quality</section>
+      <section className="padding">SuperQuality</section>
       {/* Services Section */}
       <section className="padding-x py-10">Services</section>
       {/* Special offers Section */}
-      <section className="padding">Special Offers</section>
+      <section className="padding">SpecialOffers</section>
       {/* Customer Reviews Section */}
-      <section className="bg-pale-blue padding">Customer Reviews</section>
+      <section className="bg-pale-blue padding">CustomerReviews</section>
       {/* Subscribe Section */}
       <section className="padding-x sm:py-32 py:16 w-full">Subscribe</section>
       {/* Footer Section */}
