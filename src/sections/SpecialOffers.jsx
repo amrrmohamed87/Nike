@@ -28,7 +28,9 @@ const SpecialOffers = () => {
           nothing short of exceptional.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop now" iconURL={arrowRight} />
+          <a href="https://www.nike.com">
+            <Button label="Shop now" iconURL={arrowRight} />
+          </a>
           <Button
             label="Learn more"
             backgroundColor="bg-white"
