@@ -28,6 +28,10 @@
     font-montserrat text-lg leading-none 
     bg-coral-red rounded-full text-white;
   }
+
+  .subscribeButtonAndInput {
+    @apply lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full;
+  }
 }
 
 @layer utilities {
