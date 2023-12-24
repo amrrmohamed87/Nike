@@ -124,7 +124,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { href:"https://facebook.com/nike" , src: facebook, alt: "facebook logo" },
+    { href:"https://twitter.com/Nike" , src: twitter, alt: "twitter logo" },
+    { href:"https://instagram.com/nike?igsh=ajNzY2FrbHVIOWZ3" , src: instagram, alt: "instagram logo" },
 ];
