@@ -21,7 +21,7 @@ const Hero = () => {
           w-full max-xl:padding-x pt-28"
       >
         <p className="text-lg font-montserrat text-coral-red">
-          Our Summer Collection
+          Our Winnter Collection
         </p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
@@ -34,8 +34,9 @@ const Hero = () => {
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-
-        <Button label="Shop now" iconURL={arrowRight} />
+        <a href="https://www.nike.com">
+          <Button label="Shop now" iconURL={arrowRight} />
+        </a>
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((data) => (
@@ -64,7 +65,7 @@ const Hero = () => {
         sm:left-[10%] max-sm:px-6"
         >
           {shoes.map((shoe) => (
-            <div key={shoe}>
+            <div key={shoe.thumbnail}>
               <ShoeCard
                 imgURL={shoe}
                 changeBigShoeImage={(shoe) => setBigShoeImage(shoe)}
