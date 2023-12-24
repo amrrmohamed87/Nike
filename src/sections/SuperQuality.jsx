@@ -21,7 +21,9 @@ const SuperQuality = () => {
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className="mt-11">
-          <Button label="View Details" />
+          <a href="https://www.nike.com">
+            <Button label="View Details" />
+          </a>
         </div>
       </div>
 
