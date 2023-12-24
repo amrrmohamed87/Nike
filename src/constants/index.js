@@ -1,6 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
-
+import customer4 from "../assets/images/customer4.jpg"
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
@@ -74,7 +74,7 @@ export const reviews = [
     {
         imgURL: customer1,
         customerName: 'Morich Brown',
-        rating: 4.5,
+        rating: 4.0,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
@@ -82,7 +82,13 @@ export const reviews = [
         customerName: 'Lota Mongeskar',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+    },
+    {
+        imgURL: customer4,
+        customerName: 'Amr Muhammad',
+        rating: 4.2,
+        feedback: "I love wear to Nike shoes cause it's cool and elegant. Also, The material is unbelieveable!"
+    },
 ];
 
 
